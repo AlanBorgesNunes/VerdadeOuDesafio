@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "527158660265",
+    "project_id": "verdade-ou-desafio-b69e8",
+    "storage_bucket": "verdade-ou-desafio-b69e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527158660265:android:0edc4db1de1c077ab52db8",
+        "android_client_info": {
+          "package_name": "com.muita.verdadeoudesafio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527158660265-2jmm9ov9us3caiikhvnhj0jfjumqsrda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muita.verdadeoudesafio",
+            "certificate_hash": "8f860e2522ecdcf0c1912fa39b8fb6822d2c4914"
+          }
+        },
+        {
+          "client_id": "527158660265-ot067h38n6qed27ooc44ep82j2u5im9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4EYl-9Pow8sLi4frj4zAHW8h4eU-wFmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527158660265-ot067h38n6qed27ooc44ep82j2u5im9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

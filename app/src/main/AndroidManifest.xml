@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muita.verdadeoudesafio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logovd"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logovd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VerdadeOuDesafio">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6827886217820908~8945961192" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

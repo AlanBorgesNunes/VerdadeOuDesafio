@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.muita.verdadeoudesafio.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_nomesCasalFragment"
+            app:destination="@id/nomesCasalFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_nomesGrupoFragment"
+            app:destination="@id/nomesGrupoFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_politicasFragment"
+            app:destination="@id/politicasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nomesCasalFragment"
+        android:name="com.muita.verdadeoudesafio.NomesCasalFragment"
+        android:label="fragment_nomes_casal"
+        tools:layout="@layout/fragment_nomes_casal" >
+        <action
+            android:id="@+id/action_nomesCasalFragment_to_jogarFragment"
+            app:destination="@id/jogarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nomesGrupoFragment"
+        android:name="com.muita.verdadeoudesafio.NomesGrupoFragment"
+        android:label="fragment_nomes_grupo"
+        tools:layout="@layout/fragment_nomes_grupo" >
+        <action
+            android:id="@+id/action_nomesGrupoFragment_to_jogarGrupoFragment"
+            app:destination="@id/jogarGrupoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jogarFragment"
+        android:name="com.muita.verdadeoudesafio.JogarFragment"
+        android:label="fragment_jogar"
+        tools:layout="@layout/fragment_jogar" >
+        <action
+            android:id="@+id/action_jogarFragment_to_nomesCasalFragment"
+            app:destination="@id/nomesCasalFragment" />
+        <action
+            android:id="@+id/action_jogarFragment_to_verdadeFragment"
+            app:destination="@id/verdadeFragment" />
+        <action
+            android:id="@+id/action_jogarFragment_to_desafioFragment"
+            app:destination="@id/desafioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jogarGrupoFragment"
+        android:name="com.muita.verdadeoudesafio.JogarGrupoFragment"
+        android:label="fragment_jogar_grupo"
+        tools:layout="@layout/fragment_jogar_grupo" >
+        <action
+            android:id="@+id/action_jogarGrupoFragment_to_verdadeGrupoFragment"
+            app:destination="@id/verdadeGrupoFragment" />
+        <action
+            android:id="@+id/action_jogarGrupoFragment_to_desafioGrupoFragment"
+            app:destination="@id/desafioGrupoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verdadeFragment"
+        android:name="com.muita.verdadeoudesafio.VerdadeFragment"
+        android:label="fragment_verdade"
+        tools:layout="@layout/fragment_verdade" >
+        <action
+            android:id="@+id/action_verdadeFragment_to_jogarFragment"
+            app:destination="@id/jogarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/desafioFragment"
+        android:name="com.muita.verdadeoudesafio.DesafioFragment"
+        android:label="fragment_desafio"
+        tools:layout="@layout/fragment_desafio" >
+        <action
+            android:id="@+id/action_desafioFragment_to_jogarFragment"
+            app:destination="@id/jogarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verdadeGrupoFragment"
+        android:name="com.muita.verdadeoudesafio.VerdadeGrupoFragment"
+        android:label="fragment_verdade_grupo"
+        tools:layout="@layout/fragment_verdade_grupo" >
+        <action
+            android:id="@+id/action_verdadeGrupoFragment_to_jogarGrupoFragment"
+            app:destination="@id/jogarGrupoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/desafioGrupoFragment"
+        android:name="com.muita.verdadeoudesafio.DesafioGrupoFragment"
+        android:label="fragment_desafio_grupo"
+        tools:layout="@layout/fragment_desafio_grupo" >
+        <action
+            android:id="@+id/action_desafioGrupoFragment_to_jogarGrupoFragment"
+            app:destination="@id/jogarGrupoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/politicasFragment"
+        android:name="com.muita.verdadeoudesafio.PoliticasFragment"
+        android:label="fragment_politicas"
+        tools:layout="@layout/fragment_politicas" />
+</navigation>

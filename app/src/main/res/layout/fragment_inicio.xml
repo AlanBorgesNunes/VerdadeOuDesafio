@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioFragment">
+
+    <RelativeLayout
+        android:id="@+id/casal"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/purple_700"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/politicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politicas de Privacidade"
+                android:gravity="end"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:text="VERSÃO
+
+
+            CASAL"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/grupo"
+        android:layout_marginLeft="90dp"
+        android:background="#ff6f9c"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Verdade ou "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:layout_marginLeft="220dp"
+        android:layout_above="@+id/grupo">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Desafio?"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/grupo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_below="@+id/casal"
+        android:layout_marginTop="-3dp"
+        android:background="#ff6f9c"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:text="VERSÃO
+
+
+            GRUPO"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
